@@ -1,0 +1,1019 @@
+body {
+    background-color: #fff;
+
+}
+
+html {
+    padding: 0px !important;
+
+}
+
+/**** Navigation ****/
+
+
+.navbar {
+    padding: 0 0 4.5rem;
+    background-color: transparent;
+    padding-right: 150px;
+}
+
+
+
+.nav-item {
+    padding: 0 18px;
+    padding-left: 0px;
+    color: #000;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+    color: teal !important;
+
+}
+
+
+.nav-link:hover {
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+    color: honeydew !important;
+}
+
+/**** Page Sections ****/
+
+.divide {
+
+    background-image: url("/assets/images/welcome.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: 150px;
+    right: 35%;
+
+}
+
+
+.brush {
+    width: 150%;
+    margin-left: -35px;
+
+
+}
+
+.dev {
+    width: 100%;
+    margin-left: 0px;
+
+}
+
+
+.alignLeft {
+    text-align: left;
+}
+
+.alignRight {
+    text-align: center;
+}
+
+
+
+
+.showontop {
+    position: relative;
+    z-index: 1 !important;
+}
+
+.showontop:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("/assets/images/source3.gif") center center;
+    opacity: 0.2;
+}
+
+.github {
+    width: 7%;
+
+
+}
+
+.dribbble {
+    width: 5%;
+}
+
+.codepen {
+    width: 17%
+}
+
+.linkedin {
+    width: 9%
+}
+
+
+.hero-head {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 100px;
+    font-size: 1.5rem !important;
+    padding-right: 40%;
+
+
+}
+
+#datendtime {
+    color: #a4c5c6 !important;
+    padding-right: 40%;
+    font-family: 'Lato';
+    font-size: 12px
+}
+
+#about {
+    padding-top: 0px;
+    padding-bottom: 50px;
+    background: #fff;
+    background-image: url("/assets/images/foot12t.png");
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+#title {
+    background-color: white;
+    background-image: url("/assets/images/foot12t.png");
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+
+
+
+}
+
+
+#workOne {
+
+    padding-top: 100px;
+    background-color: white;
+    padding-bottom: 100px;
+    position: relative;
+    z-index: 1 !important;
+
+}
+
+
+#workOne:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("/assets/images/vec2.png") center center;
+    opacity: 0.08;
+    background-repeat: no-repeat;
+    background-position: center center;
+   
+
+
+}
+
+    .box-tech{
+        background-color: #47484b;
+    }
+
+    .box-tech2{
+        background-color: #1d1f21;
+       width: 50px;
+           padding-left:10px;
+        padding-top: 20px;
+        line-height: 1.3;
+    }
+
+
+.box-tech-content{
+            background-color: #1d1f21;
+width: 79.16%;
+    
+       padding-top:30px;
+}
+.box-tech-content p{
+
+    line-height: 2.6px!important;
+      
+}
+
+
+
+#res1{
+  
+    padding-bottom:50px;
+}
+
+#resume {
+
+    background-color: white;
+    margin-bottom: auto;
+    margin-top: auto;
+
+}
+
+
+#res3{
+    padding-bottom: 16vh;
+}
+
+
+.row {
+    padding-top: 0 !important;
+    position: relative;
+}
+
+
+
+/**** Page Elements ****/
+
+
+
+
+
+h1 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 4.8rem;
+    color: #222831;
+    margin: 0px auto 0 auto;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem !important;
+    color: #00adb5;
+    font-weight: normal;
+    padding-bottom: 10px;
+    font-weight: bolder;
+
+
+}
+
+
+
+.h2-lg {
+    color: #00adb5;
+    font-size: 5rem !important;
+    padding-top: 0;
+    font-weight: bolder;
+    padding-top: 100px;
+    text-align: center;
+
+
+}
+
+.h2-lg-light {
+    color: #00adb5;
+    font-size: 3.5rem !important;
+
+
+    font-weight: bold;
+
+}
+
+h6{
+  
+   font-family: 'Fredoka One', cursive;
+    
+}
+
+#work1{
+  height: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.popup_content {
+    margin: 10px;
+    padding: 50px 50px;
+    max-width: 60%;
+    border: 7px solid ivory !important;
+    background: white;
+    text-align: center !important;
+    border-radius: 20px;
+ background: url("/assets/images/vec2.jpg") top;
+
+}
+
+
+
+
+.fa-address-card {
+    font-size: 35px;
+
+
+
+
+}
+
+.fa-address-card:hover {
+    color: whitesmoke;
+
+
+}
+
+.tooltip .tooltip-inner {
+    background-color: ghostwhite;
+    color: #000;
+    font-family: Raleway;
+
+}
+
+.pofilePic {
+    width: 21%;
+    border-radius: 50%;
+    border: solid 1px !important;
+
+}
+
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    color: #dfdfdf;
+    padding-bottom: 20px;
+
+}
+
+
+
+.bolder {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.8rem;
+    color: gray;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+
+.reslist{
+    color: darkgray;
+}
+p {
+    color: darkgray;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    font-weight: lighter;
+
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #ffeb99;
+    border-width: 5px;
+    width: 3%;
+}
+
+
+
+/**** Layouts/Positioning ****/
+
+
+.title-resume {
+    text-align: left !important;
+
+
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+
+
+}
+
+.title-resume2 {
+
+    text-align: right;
+    margin-top: auto;
+    margin-bottom: auto;
+
+
+
+}
+
+.WelcomeTitle {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.container-fluid {
+    padding: 3% 3%;
+}
+
+
+.kipul {
+    font-family: lato;
+    color: black;
+
+}
+
+.box {
+    text-align: justify;
+    padding: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 0px;
+
+
+}
+
+
+
+ul {
+
+    list-style: none;
+    padding: 0;
+}
+
+.tebaimg {
+    margin-bottom: 50px;
+    width: 60% !important;
+}
+
+.kipLeft {
+    position: sticky;
+    top: 20%;
+    z-index: 10 !important;
+    padding-top: 20px;
+    text-align: left;
+    height: 100%;
+    
+    
+}
+
+.kipRight {
+    position: sticky;
+    top: 20%;
+    height: 100%;
+    z-index: 10 !important;
+    padding-top: 20px;
+    padding-bottom: 0;
+    text-align: right;
+}
+
+.kip2bottom {
+    text-align: center;
+    padding-bottom: 100px;
+    background-color: transparent;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.kip2top {
+    text-align: center;
+    padding-top: 100px;
+    background-color: transparent;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+
+}
+
+
+
+
+
+.kip2top img {
+    width: 75%;
+    border-radius: 10px;
+    border: solid 1px grey;
+
+
+}
+
+.crownM {
+    width: 80% !important;
+    border: solid 0px grey !important;
+    padding-bottom: 40px;
+
+}
+
+.kip2bottom img {
+    width: 55%;
+    border-radius: 10px;
+    border: solid 1px grey;
+
+}
+
+mark {
+    background-color: azure;
+    color: black;
+   
+    padding: 5px 10px ;
+
+
+}
+
+
+.kip2 {
+    text-align: center;
+
+    background-color: transparent;
+}
+
+
+.kip1 img {
+    max-width: 30%;
+    border-radius: 10px;
+    border: solid 1px grey;
+
+}
+
+
+.kip2 img {
+    width: 55%;
+    border-radius: 10px;
+    border: solid 1px grey;
+
+}
+
+.kip3 img {
+    max-width: 100%;
+    border-radius: 10px;
+    border: solid 1px grey;
+}
+
+
+.box-top-left {
+    margin-top: auto;
+    margin-bottom: auto;
+
+    padding-right: 0;
+}
+
+.box-top-right {
+    padding: 0 5% 0 0;
+    text-align: justify;
+    margin-top: auto;
+    margin-bottom: auto;
+
+
+}
+
+
+
+
+.container {
+    max-width: 1200px !important;
+    width: 100%;
+
+}
+
+
+.help {
+    padding: 0px 0px;
+    text-align: center;
+}
+
+.spacerBottom {
+    padding-bottom: 30px;
+}
+
+.spacerTop {
+    padding-top: 30px;
+}
+
+
+
+
+/**** Buttons ****/
+
+.high {
+    background-color: #393e46;
+
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 18px;
+}
+
+.btn {
+    margin: 5% 3% 5% 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    background-color: #eeeeee;
+    border-radius: 0px;
+    border: none;
+    outline: none;
+    color: black;
+    border: solid 1px #fff;
+    font-size: 1rem;
+
+
+}
+
+.btn:hover {
+    color: teal;
+    background-color: whitesmoke;
+    border: none;
+    outline: none;
+    border: solid 1px #fff;
+}
+
+.btnWork {
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin: 5% 0% 5% 0 !important;
+    padding: 5px 10%;
+
+
+
+}
+
+.btnhire {
+    margin: 2% 0 2% 0;
+}
+
+
+
+/*btn_background*/
+.effect01 {
+  color: #000;
+  border: 1px solid gainsboro;
+  box-shadow:0px 0px 0px 1px white inset;
+  background-color:ghostwhite;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+.effect01:hover {
+  border: 1px solid gainsboro;
+  background-color: ghostwhite;
+  box-shadow:0px 0px 0px 4px white inset;
+}
+
+/*btn_text*/
+.effect01 span {
+  transition: all 0.2s ease-out;
+  z-index: 2;
+}
+.effect01:hover span{
+  letter-spacing: 0.13em;
+  color: #333;
+}
+
+/*highlight*/
+.effect01:after {
+  background: #FFF;
+  border: 0px solid black;
+  content: "";
+  height: 155px;
+  left: -75px;
+  opacity: .8;
+  position: absolute;
+  top: -50px;
+  -webkit-transform: rotate(35deg);
+          transform: rotate(35deg);
+  width: 50px;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);/*easeOutCirc*/
+  z-index: 1;
+}
+.effect01:hover:after {
+  background: #FFF;
+  border: 20px solid mediumaquamarine;
+  opacity: 0;
+  left: 120%;
+  -webkit-transform: rotate(40deg);
+          transform: rotate(40deg);
+}
+
+
+
+/**** Footer ****/
+
+
+
+#footer {
+    background-color: azure;
+    background-image: url("/assets/images/foot12t.png");
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    line-height: 5;
+    padding: .3%;
+    padding-left: 60px;
+
+
+
+}
+
+.footnote {
+    background-color: ghostwhite;
+    padding: 5px;
+
+
+}
+
+#footertwo {
+    background-color: #574b4f !important;
+    color: aliceblue;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+    padding: 1%;
+    text-align: center;
+
+}
+
+
+
+
+/**** Media Queries ****/
+
+
+@media (max-width:900px) {
+    
+    mark {
+  font-size: 12px;
+
+
+}
+    
+    
+    .kip2bottom {
+ 
+    padding-bottom: 0px;
+
+
+}
+    
+    
+    .kipRight {
+    position: relative;
+  
+    z-index: 10 !important;
+    padding-top: 0px;
+    text-align: center;
+    height: 140px;
+}
+
+    
+    
+    .kipLeft {
+    position: relative;
+    top: 50%;
+    z-index: 10 !important;
+    padding-top: 0px;
+    text-align: center;
+    height: 140px;
+}
+    
+    .pofilePic {
+    width: 50%!important;
+    border-radius: 50%;
+    border: solid 1px !important;
+
+}
+
+    
+    .popup_content {
+    margin: 10px;
+    padding: 20px 2px;
+    max-width: 80%;
+    border: 7px solid ivory !important;
+    background: white;
+    text-align: center !important;
+    border-radius: 20px;
+ background: url("/assets/images/vec2.jpg") top;
+
+}
+    
+
+    .rowRev{
+    
+      display: -ms-flexbox;
+  display: flex;
+         flex-direction: column-reverse;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+    
+    .brush {
+    width:100%;
+    margin-left: 0px;
+
+
+}
+
+.dev {
+    width: 80%;
+    margin-left: 0px;
+
+}
+
+    
+    
+    
+    
+
+    .kip {
+        position: relative;
+        text-align: center;
+        top: 50%;
+        z-index: 10 !important;
+        padding-top: 0px;
+    }
+
+
+    #about {
+        margin-top: -40px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+
+    .btnWork {
+        display: none;
+    }
+
+    .kip2 {
+        padding-top: 30px;
+
+    }
+
+    .pofilePic {
+        width: 100%;
+        border-radius: 50%;
+
+    }
+
+    .github {
+        width: 15%;
+
+
+    }
+
+    .dribbble {
+        width: 11%;
+    }
+
+    .codepen {
+        width: 25%
+    }
+
+
+    .hero-head {
+        color: #fff;
+        font-family: 'Raleway', sans-serif;
+        padding-top: 20px;
+        font-size: 1.5rem !important;
+        padding-right: 40%;
+
+
+    }
+
+    .h2-lg {
+        color: a4c5c6;
+        font-size: 2.5rem !important;
+        padding-top: 0;
+        font-weight: bolder;
+        padding-top: 100px;
+
+
+
+    }
+
+
+
+    #datendtime {
+        padding: 0;
+        margin: 0;
+        display: none;
+    }
+
+
+    .hero-head {
+        padding-right: 0;
+    }
+
+    .high {
+        background-color: ##d4ebd0;
+        border-radius: 0;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        font-size: 14px;
+
+    }
+
+
+
+    .container-fluid {
+        padding: 3% 7%;
+    }
+
+
+    .navbar {
+
+        padding-right: 0px;
+    }
+
+
+
+    .work-display {
+        width: 90%;
+    }
+
+    #work-iCodetheWeb {
+        padding: 10% 0%;
+        background-color: #e4f9f5;
+    }
+
+
+
+
+    .box-top-left {
+        text-align: center;
+    }
+
+    .right2 {
+        text-align: center;
+    }
+
+    .box-top-right {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
+
+    .btn {
+        margin: 5% 3% 10% 0;
+        font-family: 'Raleway', sans-serif;
+        padding: 5px 5px;
+        font-size: 0.8rem
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .h1mobile {
+        font-size: 2rem;
+    }
+
+
+
+    .h2-lg-light {
+        font-size: 2.5rem;
+    }
+
+
+
+    .help {
+        padding: 0 4%;
+        text-align: center;
+    }
+
+
+    hr {
+        width: 8%;
+    }
+
+    .box-top-right {
+        padding: 5% 4% 0 4%;
+        text-align: center;
+    }
+
+    .right1 {
+        text-align: center;
+        padding: 4%;
+    }
+
+    .left1 {
+        padding: 4%;
+    }
+
+    .mReverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .process {
+        width: 70%;
+    }
+}
+
+

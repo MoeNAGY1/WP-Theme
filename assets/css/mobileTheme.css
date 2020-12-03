@@ -1,0 +1,37 @@
+/* Mobile Theme */
+
+@media screen and (max-width: 500px)
+ { 
+     
+    body{min-height:50vh; }
+     
+    #fullPage .section h1{
+    padding-right: 50px;
+    padding-left: 50px;
+    Color:#000;
+    font-size: 5em;
+    
+}
+#fullPage .section h2{
+    
+    Color:#000;
+    font-size: 1em;
+    
+}
+     
+    footer{
+        font-size: 14px;
+        text-align: center;
+        padding-left: 0px;
+        letter-spacing: -2px;
+     }
+
+
+}
+
+.myCol{
+
+    display: grid;
+    justify-content: left;
+    margin-left: 20px;
+  }
